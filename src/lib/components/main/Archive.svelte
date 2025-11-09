@@ -5,13 +5,16 @@
   import * as Dialog from "$lib/components/ui/dialog";
   import * as Carousel from "$lib/components/ui/carousel";
   import { Image, FileDown } from '@lucide/svelte';
-  
+  import i1 from "$lib/assets/images/i1.jpg";
+  import i2 from "$lib/assets/images/i2.webp";
+  import i3 from "$lib/assets/videos/i3.jpg";
+
   const plugin = Autoplay({ delay: 1500, stopOnInteraction: false, stopOnMouseEnter: true });
 
   const media = [
-    { src: "src/lib/assets/images/i1.jpg", type: "image", alt: "Interior 1" },
-    { src: "src/lib/assets/images/i2.webp", type: "image", alt: "Interior 2" },
-    { src: "src/lib/assets/images/i3.jpg", type: "image", alt: "Interior 3" }
+    { src: i1, type: "image", alt: "Interior 1" },
+    { src: i2, type: "image", alt: "Interior 2" },
+    { src: i3, type: "image", alt: "Interior 3" }
   ];
 </script>
 

@@ -2,13 +2,16 @@
   import Autoplay from "embla-carousel-autoplay";
   import * as Card from "$lib/components/ui/card/index.js";
   import * as Carousel from "$lib/components/ui/carousel/index.js";
+  import e1 from "$lib/assets/images/e1.jpg";
+  import e2 from "$lib/assets/images/e2.webp";
+  import e3 from "$lib/assets/images/e3.jpg";
 
   const plugin = Autoplay({ delay: 1500, stopOnInteraction: false, stopOnMouseEnter: true });
 
   const slides = [
-    { src: "src/lib/assets/images/e1.jpg", title: "Mars Habitat 1" },
-    { src: "src/lib/assets/images/e2.webp", title: "Mars Habitat 2" },
-    { src: "src/lib/assets/images/e3.jpg", title: "Mars Habitat 3" },
+    { src: e1, title: "Mars Habitat 1" },
+    { src: e2, title: "Mars Habitat 2" },
+    { src: e3, title: "Mars Habitat 3" },
   ];
 </script>
 
