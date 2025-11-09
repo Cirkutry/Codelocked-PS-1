@@ -8,6 +8,7 @@
   import i1 from "$lib/assets/images/i1.jpg";
   import i2 from "$lib/assets/images/i2.webp";
   import i3 from "$lib/assets/images/i3.jpg";
+  import pdf from "$lib/assets/Olympus Mons Habitat Exploring Mission Brief.pdf";
 
   const plugin = Autoplay({ delay: 1500, stopOnInteraction: false, stopOnMouseEnter: true });
 
@@ -93,7 +94,7 @@
               Download the official Olympus Mons Habitat Exploring Mission Brief PDF.
             </p>
             <a
-              href="src/lib/assets/Olympus Mons Habitat Exploring Mission Brief.pdf"
+              href={pdf}
               download
               class={buttonVariants({ variant: "outline" })}
             >
