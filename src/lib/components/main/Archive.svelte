@@ -7,7 +7,7 @@
   import { Image, FileDown } from '@lucide/svelte';
   import i1 from "$lib/assets/images/i1.jpg";
   import i2 from "$lib/assets/images/i2.webp";
-  import i3 from "$lib/assets/videos/i3.jpg";
+  import i3 from "$lib/assets/images/i3.jpg";
 
   const plugin = Autoplay({ delay: 1500, stopOnInteraction: false, stopOnMouseEnter: true });
 
